@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.form {
+  width: 50%;
+  margin: 30px auto;
+}
+.ajaxInput {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto 0;
+  padding: 15px;
+}
+.form__label {
+  margin-top: 100px;
+  width: 100%;
+  display: block;
+}
+.form__input {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border-style: none;
+  font-size: 20px;
+}
+.form__btn {
+  margin-top: 10px;
+  outline: none;
+  border-style: none;
+  background: #777;
+  color: #fff;
+  float: right;
+  padding: 10px 30px;
+  border-radius: 3px;
+  transition: 0.3s all;
+}
+.form__btn:hover {
+  background: #333;
+}
