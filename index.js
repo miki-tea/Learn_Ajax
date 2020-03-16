@@ -13,4 +13,13 @@ $(function() {
       $(".ajaxInput").html(data);
     });
   });
+
+  $(".btn__add").click(function() {
+    $("#add").load("add.html", function() {
+      console.log("文字を大きくします！");
+      setTimeout(function() {
+        $("#add").css("font-size", "30px");
+      }, 500);
+    });
+  });
 });

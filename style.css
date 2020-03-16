@@ -3,23 +3,26 @@ body {
   padding: 0;
   background: #eee;
 }
-
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 .form {
-  width: 50%;
-  margin: 30px auto;
+  margin: 30px auto 100px;
+  box-sizing: border-box;
 }
 .ajaxInput {
   box-sizing: border-box;
   height: 100px;
-  width: 100%;
   background: #fff;
   margin: 0 auto 0;
   padding: 15px;
+  box-sizing: border-box;
 }
 .form__label {
-  margin-top: 100px;
-  width: 100%;
+  margin-top: 20px;
   display: block;
+  box-sizing: border-box;
 }
 .form__input {
   margin-top: 10px;
@@ -29,6 +32,7 @@ body {
   outline: none;
   border-style: none;
   font-size: 20px;
+  box-sizing: border-box;
 }
 .form__btn {
   margin-top: 10px;
@@ -40,6 +44,8 @@ body {
   padding: 10px 30px;
   border-radius: 3px;
   transition: 0.3s all;
+  box-sizing: border-box;
+  display: block;
 }
 .form__btn:hover {
   background: #333;
