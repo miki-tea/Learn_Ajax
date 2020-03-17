@@ -1,7 +1,11 @@
 # Learn_Ajax
 
-- Ajaxサンプル
+## $.ajax
 - 下の入力フォームに入力した文字がそのまま上に表示されます。
 
+## $.load
+- ボタンを押すと文章が非同期で読み込まれます。
 
-<img width="1280" alt="スクリーンショット 2020-03-16 14 55 24" src="https://user-images.githubusercontent.com/47127483/76727091-5d856500-6796-11ea-8573-9932617c31b2.png">
+
+![image](https://user-images.githubusercontent.com/47127483/76817887-79950f00-6847-11ea-8e96-0abfc09a277d.png)
+
