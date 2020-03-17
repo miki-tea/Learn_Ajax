@@ -5,7 +5,8 @@ $(function() {
       type: "post",
       url: "ajax.php",
       data: {
-        val: $(".js-getVal").val()
+        food: $(".js-getValFood").val(),
+        station: $(".js-getValPlace").val()
       }
     }).done(function(data, status) {
       console.log(data);

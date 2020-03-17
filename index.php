@@ -14,11 +14,18 @@
       <h1>入力を即時表示</h1>
       <p>送信された文字</p>
         <div class="ajaxInput"></div>
-        <label for="name" class="form__label">入力フォーム</label>
+        <label for="food" class="form__label">好きな食べ物</label>
         <input
           type="text"
-          name="name"
-          class="form__input js-getVal"
+          name="food"
+          class="form__input js-getValFood"
+          autocomplete="off"
+        />
+        <label for="place" class="form__label">好きな駅</label>
+        <input
+          type="text"
+          name="station"
+          class="form__input js-getValPlace"
           autocomplete="off"
         />
 
